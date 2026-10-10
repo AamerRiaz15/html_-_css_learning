@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <img src="linkedin_profile_pic.jpg" width="250" height="300">
+        </div>
+
+        <div>
+            <h1>Hi, my name is Aamer</h1>
+            <h2>Fun facts about me:</h2>
+            <ul>
+                <li>I am 20 years old.</li>
+                <li>I like boats.</li>
+                <li>I am in a house.</li>
+            </ul>
+            <p>Please connect with me on linkedin <a href="https://www.linkedin.com/in/aamer-riaz-a117073a4/"> here. </a></p>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Enter email">
+            <button>Join newsletter</button>
+        </div>
+
+        <button onclick="changeStyle()">Change style</button>
+        <button onclick="reverseStyle()">Reverse style</button>
+
+        <script>
+            function changeStyle() {
+                // Change background colour
+                document.body.style.backgroundColor = "#f0f0f0";
+
+                // Change text colour
+                document.body.style.color = "#333";
+
+                // Change font
+                document.body.style.fontFamily = "Arial, sans-serif";
+            }
+
+            function reverseStyle() {
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.body.style.fontFamily = "Times New Roman, serif";
+            }
+        </script>
+
+    </body>
+</html>
